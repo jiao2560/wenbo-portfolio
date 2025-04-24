@@ -3,6 +3,14 @@ import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 function App() {
   return (
+    <>
+    <div className="nav-bar">
+
+
+  <a href="#internships">Internships</a>
+  <a href="#projects">Projects</a>
+  <a href="#life">Life Outside Work</a>
+</div>
     <div className="app-container">
       <div className="text-section">
         <div className="intro-box">
@@ -17,10 +25,16 @@ function App() {
             During my studies, I spent four years in <span className="highlight">West Lafayette</span> — where I enjoyed Big Ten football weekends and Midwest winters — and another year in <span className="highlight">Boston</span>, exploring the tech scene and East Coast architecture.
           </p>
         </div>
-        <h2>Internships</h2>
+        <h2 id="internships">Internships</h2>
         <div className="project-card">
-  <h3>Software Engineer Intern — ML@Purdue</h3>
-  <p className="intern-date">May 2023 – Aug 2023 • West Lafayette, Indiana, USA</p>
+  <div className="intern-header">
+    <img src="/first.png" alt="ML@Purdue Logo" className="intern-logo" />
+    <div>
+      <h3 className="intern-company">ML@Purdue (Student Club)</h3>
+      <p className="intern-role">Software Engineer Intern</p>
+      <p className="intern-date">May 2023 – Aug 2023 • West Lafayette, Indiana, USA</p>
+    </div>
+  </div>
   <ul className="project-bullets">
     <li>Built an AI chatbot using OpenAI API and Python, reducing response time by 40% and supporting 10K+ daily queries with AWS Lambda and DynamoDB</li>
     <li>Designed RESTful APIs and automated document converters (HTML, PDF, XLSX) for S3 indexing and retrieval workflows</li>
@@ -30,8 +44,14 @@ function App() {
 </div>
 
 <div className="project-card">
-  <h3>Software Engineer Intern — UIC-Print-Rite 3D Innovation Lab</h3>
-  <p className="intern-date">Oct 2018 – Jun 2019 • Zhuhai, Guangdong</p>
+  <div className="intern-header">
+    <img src="/second.png" alt="UIC-Print-Rite Logo" className="intern-logo" />
+    <div>
+      <h3 className="intern-company">UIC-Print-Rite 3D Innovation and Development Lab</h3>
+      <p className="intern-role">Software Engineer Intern</p>
+      <p className="intern-date">Oct 2018 – Jun 2019 • Zhuhai, Guangdong, China</p>
+    </div>
+  </div>
   <ul className="project-bullets">
     <li>Optimized a distributed 3D print job scheduling system to improve task allocation and throughput efficiency</li>
     <li>Implemented real-time messaging using WebSocket event queues and Redis pub/sub to minimize system latency</li>
@@ -40,7 +60,8 @@ function App() {
   </ul>
 </div>
 
-        <h2>Projects</h2>
+
+<h2 id="projects">Projects</h2>
 
 <div className="project-card">
   <h3>AI Study Buddy</h3>
@@ -107,7 +128,7 @@ function App() {
     <li>Packaged and documented a runnable JAR executable for gameplay demonstrations and grading</li>
   </ul>
 </div>
-<div className="travel-section">
+<div className="travel-section" id="life">
   <div className="life-intro">
     <h2>Life Outside Work</h2>
     <p>
@@ -164,7 +185,7 @@ function App() {
         </div>
       </div>
     </div>
-  );
+    </> );
 }
 
 export default App;
