@@ -1,0 +1,184 @@
+/* src/App.css */
+
+body {
+  margin: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: #5ea2ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.app-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.text-section {
+  flex: 1;
+  min-width: 0;
+}
+
+.image-section {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+/* === Intro Box === */
+.intro-box {
+  background-color: #111;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  max-width: 700px;
+  margin-bottom: 3rem;
+  line-height: 1.7;
+}
+
+.highlight {
+  color: #5ea2ff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.highlight:hover {
+  text-decoration: underline;
+}
+
+/* === Contact Icons === */
+.icon-links {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+}
+
+.icon-links a {
+  color: #ffffff;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.icon-links a:hover {
+  transform: scale(1.2);
+  color: #5ea2ff;
+}
+
+/* === Section Heading === */
+h2 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+/* === Project Card Box Style === */
+.project-card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 1px solid #333;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.08);
+}
+
+.project-card h3 {
+  font-size: 1.6rem;
+  color: #5ea2ff;
+  margin-bottom: 0.75rem;
+}
+
+.project-card p {
+  color: #ccc;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-links a {
+  background-color: #222;
+  color: #5ea2ff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+
+.project-links a:hover {
+  background-color: #333;
+}
+
+.project-bullets {
+  list-style: disc;
+  margin-left: 1.5rem;
+  color: #bbb;
+  line-height: 1.5;
+}
+.city-row {
+  margin-bottom: 3rem;
+}
+
+.city-labels {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.city-labels h3 {
+  font-size: 1.3rem;
+  color: #5ea2ff;
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.travel-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.travel-gallery img {
+  max-width: 160px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.travel-gallery img:hover {
+  transform: scale(1.03);
+}
