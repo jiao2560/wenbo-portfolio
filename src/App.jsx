@@ -17,6 +17,28 @@ function App() {
             During my studies, I spent four years in <span className="highlight">West Lafayette</span> — where I enjoyed Big Ten football weekends and Midwest winters — and another year in <span className="highlight">Boston</span>, exploring the tech scene and East Coast architecture.
           </p>
         </div>
+        <h2>Internships</h2>
+        <div className="project-card">
+  <h3>Software Engineer Intern — ML@Purdue</h3>
+  <p className="intern-date">May 2023 – Aug 2023 • West Lafayette, Indiana, USA</p>
+  <ul className="project-bullets">
+    <li>Built an AI chatbot using OpenAI API and Python, reducing response time by 40% and supporting 10K+ daily queries with AWS Lambda and DynamoDB</li>
+    <li>Designed RESTful APIs and automated document converters (HTML, PDF, XLSX) for S3 indexing and retrieval workflows</li>
+    <li>Improved backend performance with a secure, serverless AWS setup, reducing API latency by 30%</li>
+    <li>Eliminated manual workloads via end-to-end AWS automation, cutting processing time by 50%</li>
+  </ul>
+</div>
+
+<div className="project-card">
+  <h3>Software Engineer Intern — UIC-Print-Rite 3D Innovation Lab</h3>
+  <p className="intern-date">Oct 2018 – Jun 2019 • Zhuhai, Guangdong</p>
+  <ul className="project-bullets">
+    <li>Optimized a distributed 3D print job scheduling system to improve task allocation and throughput efficiency</li>
+    <li>Implemented real-time messaging using WebSocket event queues and Redis pub/sub to minimize system latency</li>
+    <li>Deployed containerized microservices with Docker on Linux EC2 servers for scalable operations</li>
+    <li>Conducted performance profiling and memory optimization for services, improving system responsiveness by 15%</li>
+  </ul>
+</div>
 
         <h2>Projects</h2>
 

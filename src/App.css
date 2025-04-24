@@ -182,3 +182,8 @@ h2 {
 .travel-gallery img:hover {
   transform: scale(1.03);
 }
+.intern-date {
+  color: #aaa;
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
