@@ -19,10 +19,10 @@ function App() {
             I'm a technically versatile software engineer with a strong foundation in backend systems, cloud infrastructure, and performance optimization.
           </p>
           <p>
-          I am completing an M.S. in Computer Science at Northeastern University (GPA: 4.00) and hold a B.S. in Computer Science from Purdue University (GPA: 3.45), with broad interests spanning distributed systems, low-level performance tuning, and full-stack development when needed.
+          I am completing an M.S. in Computer Science at <span className="highlight">Northeastern University (GPA: 4.00)</span> and hold a B.S. in Computer Science from <span className="highlight">Purdue University (GPA: 3.45)</span>, with broad interests spanning distributed systems, low-level performance tuning, and full-stack development when needed.
           </p>
           <p>
-            During my studies, I spent four years in <span className="highlight">West Lafayette</span> — where I enjoyed Big Ten football weekends and Midwest winters — and another year in <span className="highlight">Boston</span>, exploring the tech scene and East Coast architecture.
+            During my studies, I spent four years in West Lafayette — where I enjoyed Big Ten football weekends and Midwest winters — and another year in Boston, exploring the tech scene and East Coast architecture.
           </p>
         </div>
         <h2 id="internships">Internships</h2>
@@ -41,7 +41,11 @@ function App() {
     <li>Improved backend performance with a secure, serverless AWS setup, reducing API latency by 30%</li>
     <li>Eliminated manual workloads via end-to-end AWS automation, cutting processing time by 50%</li>
   </ul>
+  <div className="tech-stack">
+    <strong>Tech Skills:</strong> Python, AWS Lambda, DynamoDB, S3, OpenAI API, RESTful APIs
+  </div>
 </div>
+
 
 <div className="project-card">
   <div className="intern-header">
@@ -58,7 +62,11 @@ function App() {
     <li>Deployed containerized microservices with Docker on Linux EC2 servers for scalable operations</li>
     <li>Conducted performance profiling and memory optimization for services, improving system responsiveness by 15%</li>
   </ul>
+  <div className="tech-stack">
+    <strong>Tech Skills:</strong> Docker, Redis, WebSocket, AWS EC2, Node.js, Microservices, Performance Profiling
+  </div>
 </div>
+
 
 
 <h2 id="projects">Projects</h2>
@@ -78,7 +86,12 @@ function App() {
     <li>Implemented bookmarking system and dynamic profile page with edit/view/delete actions</li>
     <li>Built admin dashboard for managing reports, users, and flagged materials</li>
   </ul>
+  <div className="tech-stack">
+    <strong>Tech Skills:</strong> React, CSS, Node.js, Gemini API, Wikipedia API, MongoDB, Express.js
+  </div>
 </div>
+
+
 <div className="project-card">
   <h3>Custom Linux Shell</h3>
   <p>
@@ -93,6 +106,9 @@ function App() {
     <li>Handled zombie processes and implemented safe termination for concurrent process chains</li>
     <li>Reduced process creation overhead by optimizing spawn logic for faster shell responsiveness</li>
   </ul>
+  <div className="tech-stack">
+    <strong>Tech Skills:</strong> C, C++, Lex, Yacc, Shell Scripting, UNIX Processes, Piping, Memory Optimization
+  </div>
 </div>
 
 <div className="project-card">
@@ -110,7 +126,11 @@ function App() {
     <li>Developed responsive UI using React and Tailwind, including search and explore pages</li>
     <li>Deployed to Render and connected with MongoDB Atlas for production-ready scalability</li>
   </ul>
+  <div className="tech-stack">
+    <strong>Tech Skills:</strong> React, Tailwind CSS, Node.js, Express, MongoDB, JWT, Bcrypt, Render
+  </div>
 </div>
+
 
 <div className="project-card">
   <h3>The World (Doctor Lucky)</h3>
@@ -127,7 +147,13 @@ function App() {
     <li>Enabled custom and default world support with upload functionality and player turn logic</li>
     <li>Packaged and documented a runnable JAR executable for gameplay demonstrations and grading</li>
   </ul>
+  <div className="tech-stack">
+    <strong>Tech Skills:</strong> Java, Swing, BufferedImage, OOP, MVC Architecture, JAR Packaging
+  </div>
 </div>
+
+
+
 <div className="travel-section" id="life">
   <div className="life-intro">
     <h2>Life Outside Work</h2>
