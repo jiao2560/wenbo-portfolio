@@ -19,7 +19,7 @@ function App() {
             I'm a technically versatile software engineer with a strong foundation in backend systems, cloud infrastructure, and performance optimization.
           </p>
           <p>
-            I hold an M.S. in Computer Science from <span className="highlight">Northeastern University</span> (4.00 GPA) and a B.S. in Computer Science from <span className="highlight">Purdue University</span> (3.45 GPA), with broad interests spanning distributed systems, low-level performance tuning, and full-stack development when needed.
+          I am completing an M.S. in Computer Science at Northeastern University (GPA: 4.00) and hold a B.S. in Computer Science from Purdue University (GPA: 3.45), with broad interests spanning distributed systems, low-level performance tuning, and full-stack development when needed.
           </p>
           <p>
             During my studies, I spent four years in <span className="highlight">West Lafayette</span> — where I enjoyed Big Ten football weekends and Midwest winters — and another year in <span className="highlight">Boston</span>, exploring the tech scene and East Coast architecture.
@@ -170,7 +170,7 @@ function App() {
       </div>
 
       <div className="image-section">
-        <img src="/me.jpeg" alt="Wenbo Jiao" className="profile-pic" />
+        <img src="/me.jpg" alt="Wenbo Jiao" className="profile-pic" />
 
         <div className="icon-links">
           <a href="https://www.linkedin.com/in/wenbo-j-b12982296/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
