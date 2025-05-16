@@ -196,7 +196,7 @@ function App() {
       </div>
 
       <div className="image-section">
-        <img src="/501788550700790724.jpg" alt="Wenbo Jiao" className="profile-pic" />
+        <img src="/214550597555292936.jpg" alt="Wenbo Jiao" className="profile-pic" />
 
         <div className="icon-links">
           <a href="https://www.linkedin.com/in/wenbo-j-b12982296/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
